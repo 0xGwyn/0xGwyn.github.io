@@ -15,7 +15,7 @@
         <h3 class="heading"><b>Related files</b></h3>
         <ul>
             <li>
-                <a href="/files/projects/robots/Documentation.pdf" style="color: #ff5733" target="_blank">Documentation file (in Persian)</a>
+                <a href="/files/projects/robots/documentation.pdf" style="color: #ff5733" target="_blank">Documentation file (in Persian)</a>
             </li>
             <li>
                 <a href="https://github.com/0xGwyn/RoboFinder" style="color: #ff5733" target="_blank">Code</a>
