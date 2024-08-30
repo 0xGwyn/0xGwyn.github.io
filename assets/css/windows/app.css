@@ -1,0 +1,10 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #018281;
+    background-image: url('/assets/background.png');
+    background-size: cover;
+    background-position: center;
+  }
+  
