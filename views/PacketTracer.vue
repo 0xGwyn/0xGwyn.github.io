@@ -10,7 +10,7 @@
         <h3 class="heading"><b>Related files</b></h3>
         <ul>
             <li>
-                <a href="/files/projects/wan/report.pdf" style="color: #ff5733" target="_blank">Report file (in Persian)</a>
+                <a href="/files/projects/wan/report.pdf" style="color: #ff5733" target="_blank">Report file with commands (in Persian)</a>
             </li>
             <li>
                 <a href="/files/projects/wan/instruction.pdf" style="color: #ff5733" target="_blank">Project instruction (in Persian)</a>

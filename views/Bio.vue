@@ -1,7 +1,7 @@
 <template>
 <div>
     <img class="w-full h-auto" src="" />
-    <h2 class="font-bold text-2xl py-5">Ali Dindamal (Gwyn)</h2>
+    <h2 class="font-bold text-2xl py-5">Ali Dindamal aka (Gwyn)</h2>
     <h4 class="text-gray-600 font-medium text-xs" style="padding-bottom: 10px">
         A developer, cybersecurity enthusiast, and Computer Engineering graduate from Shahid Chamran University of Ahvaz
     </h4>
