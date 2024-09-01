@@ -4,34 +4,16 @@
         <img class="sidebar-image" src="@/assets/sidebar-image.png" />
     </div>
     <div class="socials">
-        <!-- <a href="https://www.instagram.com/_dontax_/" target="_blank">
-            <div class="bar">
-                <img class="social-image" src="@/assets/StartMenuIcons/Instagram.webp" />
-                <div class="social-text"><u>I</u>nstagram</div>
-            </div>
-        </a> -->
-        <!-- <a href="https://www.reddit.com/user/satoshigekkouga2303" target="_blank">
-            <div class="bar">
-                <img class="social-image" src="@/assets/StartMenuIcons/Reddit.webp" />
-                <u>R</u>eddit
-            </div>
-        </a>
-        <a href="https://www.linkedin.com/in/don-chia" target="_blank">
-            <div class="bar">
-                <img class="social-image" src="@/assets/StartMenuIcons/Linkedin.webp" />
-                <u>L</u>inkedIn
-            </div>
-        </a> -->
-        <!-- <a href="https://twitter.com/lizarDON2303" target="_blank">
-            <div class="bar">
-                <img class="social-image" src="@/assets/StartMenuIcons/Twitter.webp" />
-                <u>T</u>witter
-            </div>
-        </a> -->
         <a href="https://github.com/0xGwyn" target="_blank">
             <div class="bar">
                 <img class="social-image" src="@/assets/StartMenuIcons/Github.webp" />
                 <u>G</u>itHub
+            </div>
+        </a>
+        <a href="https://tryhackme.com/p/gwynd0lin" target="_blank">
+            <div class="bar">
+                <img class="social-image" src="@/assets/StartMenuIcons/Tryhackme.png" />
+                <u>T</u>ryHackMe
             </div>
         </a>
         <div class="divider"></div>
@@ -41,12 +23,6 @@
                 <u>R</u>esume
             </div>
         </a>
-        <!-- <a href="https://apps.apple.com/app/nossaflex/id1523558285" target="_blank">
-            <div class="bar">
-                <img class="social-image" src="@/assets/StartMenuIcons/Nossaflex.webp" />
-                <u>N</u>OSSAFLEX
-            </div>
-        </a> -->
     </div>
 </div>
 </template>
