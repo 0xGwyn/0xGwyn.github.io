@@ -19,8 +19,8 @@
     </div>
 
     <div class="pt-7">
-        <h3 class="pb-1"><b>Resume</b></h3>
-        <a style="color: #ff5733" href="/files/resume.pdf" target="_blank" class="font-thin text-sm pb-2.5">Check out my resume here.</a>
+        <h3 class="pb-1"><b>Curriculum Vitae</b></h3>
+        <a style="color: #ff5733" href="/files/cv.pdf" target="_blank" class="font-thin text-sm pb-2.5">Check out my cv here.</a>
     </div>
 </div>
 </template>

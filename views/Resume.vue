@@ -8,14 +8,14 @@ const windowsStore = useWindowsStore()
 <template>
 <div style="display: flex; height: 100%; flex-direction: column">
     <nav class="download-bar">
-        <a href="/files/resume.pdf" class="download" style="z-index: 10" download target="_blank">
+        <a href="/files/cv.pdf" class="download" style="z-index: 10" download target="_blank">
             <span style="display: flex" class="border">
                 <img src="@/assets/Resume/download.png" class="icon-image" />
                 <p style="margin-top: 2px">Download</p>
             </span>
         </a>
 
-        <a href="/files/resume.pdf" class="download" style="z-index: 10" target="_blank">
+        <a href="/files/cv.pdf" class="download" style="z-index: 10" target="_blank">
             <span style="display: flex" class="border">
                 <img src="@/assets/Resume/open.png" class="icon-image" />
                 <p style="margin-top: 2px">Open In New Tab</p>
@@ -23,7 +23,7 @@ const windowsStore = useWindowsStore()
         </a>
     </nav>
     <div class="frame" style="z-index: 99">
-        <iframe class="frame" src="/files/resume.pdf"></iframe>
+        <iframe class="frame" src="/files/cv.pdf"></iframe>
         <span v-if="windowsStore.activeWindow != 'ResumeWindow'" style="bottom: 0; left: 0; width: 100%; height: 95%; position: absolute" class="overlay"></span>
     </div>
 </div>
