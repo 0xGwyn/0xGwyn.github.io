@@ -1,20 +1,23 @@
 <template>
 <div>
     <img class="w-full h-auto" src="" />
-    <h2 class="font-bold text-2xl py-5">Ali Dindamal aka (Gwyn)</h2>
+    <h2 class="font-bold text-2xl py-5">Ali Dindamal </h2>
     <h4 class="text-gray-600 font-medium text-xs" style="padding-bottom: 10px">
         A developer, cybersecurity enthusiast, and Computer Engineering graduate from Ahvaz
     </h4>
     <div class="pt-7">
         <h3 class="underline font-bold text-md pb-1">About Me</h3>
         <p class="font-thin text-sm pb-2.5">
-            Hello! I'm a {{ new Date().getFullYear() - 2000 }} year old guy passionate about ethically breaking and securing stuff. Over the past years, I have been dedicated to expanding my skill set in various areas including programming, networking, linux, databases, and web applications and their vulnerabilities. I have successfully completed projects that demonstrate my capabilities that are present in the <b class="font-bold">Projects</b> folder.
+        With a strong interest in understanding the underlying concepts of information security, I have dedicated the past several years to developing my expertise in various areas of computer systems security.
+        My academic and practical experiences span fundamental areas such as programming, networking,
+        operating systems (with a strong focus on Linux), and web applications. I’ve also engaged with advanced topics, particularly in identifying and mitigating web application vulnerabilities based on the OWASP Top 10.
         </p>
         <p class="font-thin text-sm pb-2.5">
-            Additionally, I have gained invaluable experience by participating in Bug Bounty programs, engaging in vulnerability discovery and assessment, as well as developing related tools for such tasks. I also have played the role of a Teacher Assistant in the Computer Networks course at Shahid Chamran university.
+            Recently, my focus has shifted toward the defensive side of security (particularly the SOC tier 1 roadmap provided by TryHackMe platform), where I am especially
+        interested in working from a security analyst’s perspective to proactively identify threats and strengthen system defenses.
         </p>
         <p class="font-thin text-sm pb-2.5">
-            This website serves as a platform to showcase my academic journey, accomplishments, and projects. Feel free to explore and learn more about my educational background and experiences.
+            This website serves as a platform to showcase my academic journey, accomplishments, and projects, some of which can be found in the <b class="font-bold">Projects</b> folder. Feel free to explore and learn more about my educational background and experiences.
         </p>
     </div>
 
