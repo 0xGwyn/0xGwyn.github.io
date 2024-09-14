@@ -19,6 +19,7 @@ import SubMonitor from './views/SubMonitor.vue'
 import CacheMapping from './views/CacheMapping.vue'
 import Robots from './views/Robots.vue'
 import Diagrams from './views/Diagrams.vue'
+import Video from './views/VideoWindow.vue'
 
 import ImagePreviewWindow from './templates/ImagePreviewWindow.vue'
 import StartMenu from './templates/StartMenu.vue'
@@ -38,6 +39,7 @@ const windowComponents = [
 const slotViews = [
   { name: 'bio', comp: Bio },
   { name: 'resume', comp: Resume },
+  { name: 'Video', comp: Video },
   { name: 'MotionDetection', comp: MotionDetection },
   { name: 'QueryModifier', comp: QueryModifier },
   { name: 'DNSBrute', comp: DNSBrute },
@@ -86,6 +88,7 @@ onMounted(() => {
     document.documentElement.style.setProperty("--vh", `${vh}px`);
   });
   openWindow('BiographyWindow')
+  // openWindow('VideoWindow')
 })
 
 </script>
