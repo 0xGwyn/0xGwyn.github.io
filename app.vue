@@ -87,6 +87,20 @@ onMounted(() => {
     let vh = window.innerHeight * 0.01;
     document.documentElement.style.setProperty("--vh", `${vh}px`);
   });
+
+  // google analytics
+  const script = document.createElement('script')
+  script.async = true
+  script.src = 'https://www.googletagmanager.com/gtag/js?id=G-C277WXSNQJ'
+  document.head.appendChild(script)
+
+  window.dataLayer = window.dataLayer || []
+  function gtag() {
+    dataLayer.push(arguments)
+  }
+  gtag('js', new Date())
+  gtag('config', 'G-C277WXSNQJ')
+
   openWindow('BiographyWindow')
   // openWindow('VideoWindow')
 })
