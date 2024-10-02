@@ -102,7 +102,7 @@ onMounted(() => {
   gtag('config', 'G-C277WXSNQJ')
 
   openWindow('BiographyWindow')
-  // openWindow('VideoWindow')
+  openWindow('VideoWindow')
 })
 
 </script>
