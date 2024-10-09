@@ -10,7 +10,7 @@
                 <u>G</u>itHub
             </div>
         </a>
-        <a href="https://tryhackme.com/p/gwynd0lin" target="_blank">
+        <a href="https://tryhackme.com/p/0xGwyn" target="_blank">
             <div class="bar">
                 <img class="social-image" src="@/assets/StartMenuIcons/Tryhackme.png" />
                 <u>T</u>ryHackMe
