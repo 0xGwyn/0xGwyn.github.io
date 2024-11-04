@@ -8,7 +8,7 @@
             <p class="paragraph">
                 The approach involves two phases. In the first phase, subdomains are passively gathered from various providers like Shodan, Common Crawl, or SecurityTrails and many others using the 
                 <a class="underline text-blue-700" target="_blank" href="https://github.com/projectdiscovery/subfinder">Subfinder</a> tool developed by the 
-                <a class="underline text-blue-700" target="_blank" href="https://projectdiscovery.io/">ProjectDiscovery</a> team. A list of subdomains is then generated based on a pre-prepared wordlist, and these generated subdomains are merged with the passively obtained ones. This merged list is then given to 
+                <a class="underline text-blue-700" target="_blank" href="https://projectdiscovery.io/">ProjectDiscovery</a> team. A list of subdomains is then generated based on a prepared wordlist, and these generated subdomains are merged with the passively obtained ones. This merged list is then given to 
                 <a class="underline text-blue-700" target="_blank" href="https://github.com/projectdiscovery/shuffledns">shuffleDNS</a> which is a wrapper around 
                 <a class="underline text-blue-700" target="_blank" href="https://github.com/blechschmidt/massdns">MassDNS</a>, a high-performance DNS stub resolver.
             </p>
