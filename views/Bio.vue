@@ -13,8 +13,8 @@
         operating systems (with a strong focus on Linux), and web applications. I’ve also engaged with advanced topics, particularly in identifying and mitigating web application vulnerabilities based on the OWASP Top 10.
         </p>
         <p class="font-thin text-sm pb-2.5">
-            Recently, my focus has shifted toward the defensive side of security, particularly the SOC tier 1 roadmap provided by the <a style="color: #ff5733" href="https://tryhackme.com/p/0xGwyn" target="_blank"> TryHackMe</a> platform), where I am especially
-        interested in working from a security analyst’s perspective to proactively identify threats and strengthen system defenses. I also recently reached top 1% ranking globally on this platform which really motivated me to maintain my activity streak.
+            Recently, my focus has shifted toward the defensive side of security, particularly security analysis by completing <a style="color: #ff5733" href="https://tryhackme.com/p/0xGwyn" target="_blank"> TryHackMe</a> rooms, where I am especially
+        interested in proactively identifying threats and strengthening system defenses. I also recently reached top 1% ranking globally on this platform which really motivated me to maintain my activity streak.
         </p>
         <p class="font-thin text-sm pb-2.5">
             This website serves as a platform to showcase my academic journey, accomplishments, and projects, some of which can be found in the <b class="font-bold">Projects</b> folder. Feel free to explore and learn more about my educational background and experiences.
