@@ -88,18 +88,13 @@ onMounted(() => {
     document.documentElement.style.setProperty("--vh", `${vh}px`);
   });
 
-  // google analytics
-  const script = document.createElement('script')
-  script.async = true
-  script.src = 'https://www.googletagmanager.com/gtag/js?id=G-C277WXSNQJ'
-  document.head.appendChild(script)
-
-  window.dataLayer = window.dataLayer || []
-  function gtag() {
-    dataLayer.push(arguments)
-  }
-  gtag('js', new Date())
-  gtag('config', 'G-C277WXSNQJ')
+  // Umami Analytics
+  const script = document.createElement('script');
+  script.async = true;
+  script.defer = true;
+  script.src = 'https://cloud.umami.is/script.js'; // Replace with your hosted Umami URL if self-hosted
+  script.dataset.websiteId = 'f776b7bd-c093-4d20-b90f-e71dedcd8fd7'; // Your Umami website ID
+  document.head.appendChild(script);
 
   openWindow('BiographyWindow')
   openWindow('VideoWindow')
