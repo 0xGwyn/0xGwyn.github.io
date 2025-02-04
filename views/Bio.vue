@@ -3,7 +3,7 @@
     <img class="w-full h-auto" src="" />
     <h2 class="font-bold text-2xl py-5">Ali Dindamal </h2>
     <h4 class="text-gray-600 font-medium text-xs" style="padding-bottom: 10px">
-        A developer, cybersecurity enthusiast, and Computer Engineering graduate from Ahvaz
+	    I build tools, occasionally break things to make them more secure, and enjoy solving puzzles in the digital world.
     </h4>
     <div class="pt-7">
         <h3 class="underline font-bold text-md pb-1">About Me</h3>
