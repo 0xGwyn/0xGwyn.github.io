@@ -3,7 +3,7 @@
     <img class="w-full h-auto" src="" />
     <h2 class="font-bold text-2xl py-5">Ali Dindamal </h2>
     <h4 class="text-gray-600 font-medium text-xs" style="padding-bottom: 10px">
-	    I build tools, occasionally break things to make them more secure, and enjoy solving puzzles in the digital world.
+	    I build tools, occasionally break things to make them more secure, and enjoy solving puzzles especially in the digital world.
     </h4>
     <div class="pt-7">
         <h3 class="underline font-bold text-md pb-1">About Me</h3>
@@ -18,6 +18,9 @@
         </p>
         <p class="font-thin text-sm pb-2.5">
             This website serves as a platform to showcase my academic journey, accomplishments, and projects, some of which can be found in the <b class="font-bold">Projects</b> folder. Feel free to explore and learn more about my educational background and experiences.
+        </p>
+        <p class="font-thin text-sm pb-2.5">
+            Also, a special shout-out to <a style="color: #ff5733" href="https://www.donchia.tech/" target="_blank">Don Chia</a> for his awesome design and inspiring work.
         </p>
     </div>
 
