@@ -39,7 +39,7 @@ export const useWindowsStore = defineStore("windows", {
       {
       windowId: "VideoWindow",
       windowState: "close",
-      displayName: "Introduction video.mp4",
+      displayName: "Introduction video (Oct 2024).mp4",
       windowComponent: "window",
       windowContent: "Video",
       windowContentPadding: {
@@ -60,7 +60,7 @@ export const useWindowsStore = defineStore("windows", {
       {
         windowId: "ResumeWindow", // Unique ID
         windowState: "close", // Window State [open, close, minimize]
-        displayName: "Curriculum Vitae", // Display Name (title under icon)
+        displayName: "Curriculum Vitae (Dec 2024)", // Display Name (title under icon)
         windowComponent: "window", // Window Component (can be changed to use modified windows)
         windowContent: "resume", // Window Content (used under slots)
         windowContentPadding: {
