@@ -3,7 +3,7 @@
         <div class="inner-content">
             <h1 class="heading"><b>X9</b></h1>
             <p class="paragraph">
-                One of my favorite web application vulnerabilities is RXSS (Reflected Cross-Site Scripting), often referred to as a low hanging fruit bug. Among the types of XSS vulnerabilities, there is the reflected type, where the value of a parameter in the URL’s query part or sometimes in the body of a POST request is reflected on the page.
+                One of my favorite web application vulnerabilities is RXSS (Reflected Cross-Site Scripting), often referred to as a low-hanging fruit bug. Among the types of XSS vulnerabilities, the reflected type occurs when a user-controllable value (usually passed as a parameter in the URL query or request body) is reflected in the response in an unsafe way.
             </p>
             <p class="paragraph">
                 This tool manipulates a list of URLs to modify the query parameters or values, generating a list of modified URLs based on different strategies. These modified URLs can be used in other applications like 
