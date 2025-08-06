@@ -1,28 +1,29 @@
 <script setup>
 import FileWindow from './templates/FileWindow.vue'
 import Window from './templates/Window.vue'
-// import Mail from './templates/Mail.vue'
 import Navbar from './templates/Navbar.vue'
 import AppGrid from './templates/AppGrid.vue'
-import Bio from './views/Bio.vue'
-import Resume from './views/Resume.vue'
-import MotionDetection from './views/MotionDetection.vue'
-import QueryModifier from './views/QueryModifier.vue'
-import DNSBrute from './views/DNSBrute.vue'
-import DataAnalysis from './views/DataAnalysis.vue'
-import Compiler from './views/Compiler.vue'
-import PacketTracer from './views/PacketTracer.vue'
-import CorsFuzzer from './views/CorsFuzzer.vue'
-import OwaspTop10 from './views/OwaspTop10.vue'
-import ScopeWatcher from './views/ScopeWatcher.vue'
-import SubMonitor from './views/SubMonitor.vue'
-import CacheMapping from './views/CacheMapping.vue'
-import Robots from './views/Robots.vue'
-import Diagrams from './views/Diagrams.vue'
-import Video from './views/VideoWindow.vue'
-
-import ImagePreviewWindow from './templates/ImagePreviewWindow.vue'
 import StartMenu from './templates/StartMenu.vue'
+import ImagePreviewWindow from './templates/ImagePreviewWindow.vue'
+
+// Lazy load view components
+const Bio = defineAsyncComponent(() => import('./views/Bio.vue'))
+const Resume = defineAsyncComponent(() => import('./views/Resume.vue'))
+const MotionDetection = defineAsyncComponent(() => import('./views/MotionDetection.vue'))
+const QueryModifier = defineAsyncComponent(() => import('./views/QueryModifier.vue'))
+const DNSBrute = defineAsyncComponent(() => import('./views/DNSBrute.vue'))
+const DataAnalysis = defineAsyncComponent(() => import('./views/DataAnalysis.vue'))
+const Compiler = defineAsyncComponent(() => import('./views/Compiler.vue'))
+const PacketTracer = defineAsyncComponent(() => import('./views/PacketTracer.vue'))
+const CorsFuzzer = defineAsyncComponent(() => import('./views/CorsFuzzer.vue'))
+const OwaspTop10 = defineAsyncComponent(() => import('./views/OwaspTop10.vue'))
+const ScopeWatcher = defineAsyncComponent(() => import('./views/ScopeWatcher.vue'))
+const SubMonitor = defineAsyncComponent(() => import('./views/SubMonitor.vue'))
+const CacheMapping = defineAsyncComponent(() => import('./views/CacheMapping.vue'))
+const Robots = defineAsyncComponent(() => import('./views/Robots.vue'))
+const Diagrams = defineAsyncComponent(() => import('./views/Diagrams.vue'))
+const Video = defineAsyncComponent(() => import('./views/VideoWindow.vue'))
+
 import {
     useWindowsStore
 } from './stores/windows'
